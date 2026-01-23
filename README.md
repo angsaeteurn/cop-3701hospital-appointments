@@ -1,4 +1,6 @@
-# Project Title
+# cop-3710 hospital appointments
+
+
 
 ## Domain & Scope
 This project is a database application for managing hospital appointments.  
