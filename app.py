@@ -81,7 +81,6 @@ def feature_1(conn):
         FROM Appointment a
         JOIN Patient pat ON a.patient_id = pat.patient_id
         WHERE a.doctor_id = {p}
-          AND a.appointment_day >= CURRENT_TIMESTAMP
         ORDER BY a.appointment_day;
     """
     rows = run_query(conn, query, (doctor_id,))
@@ -105,7 +104,6 @@ def feature_2(conn):
         FROM Appointment a
         JOIN Doctor d ON a.doctor_id = d.doctor_id
         WHERE a.patient_id = {p}
-          AND a.appointment_day >= CURRENT_TIMESTAMP
         ORDER BY a.appointment_day;
     """
     rows = run_query(conn, query, (patient_id,))

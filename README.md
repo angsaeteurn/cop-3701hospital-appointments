@@ -41,6 +41,13 @@ The primary users of this system include:
 * Patients (limited access to their own appointments)
 * Data analysts reviewing no-show patterns
 
+## How to use
+Run preprocess
+run load data
+run createdb
+run dataload_1
+run app
+
 ## Data Source
 
 The primary dataset used for this project comes from:
