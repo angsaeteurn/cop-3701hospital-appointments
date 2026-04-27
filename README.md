@@ -40,13 +40,14 @@ The primary users of this system include:
 * Doctors
 * Patients (limited access to their own appointments)
 * Data analysts reviewing no-show patterns
-
+## ER Diagram
+https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/database_er.md
 ## How to use
-Run preprocess
-run load data
-run createdb
-run dataload_1
-run app
+Run preprocess  https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/preprocess_1.py
+run load_data  https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/load_data.py
+run createdb     https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/create_db.sql
+run dataload_1  https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/dataload_1.sql
+run app  https://github.com/angsaeteurn/cop-3701hospital-appointments/blob/main/app.py
 
 ## Data Source
 
